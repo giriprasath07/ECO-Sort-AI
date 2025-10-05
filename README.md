@@ -62,7 +62,7 @@ cd AI-Waste-Sorter
 
 ### 2️⃣ Install Dependencies
 ```bash
-pip install -r requirements.txt
+pip install -r Requirement.txt
 ```
 
 ### 3️⃣ Configure Environment Variables
