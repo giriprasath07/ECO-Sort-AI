@@ -1,4 +1,4 @@
-# ♻️ AI Waste Sorter - SortyxNet
+# ♻️ ECO Waste Sorter 
 
 An intelligent **waste sorting and monitoring system** powered by **YOLOv8**, **Google Gemini AI**, and **Firebase Realtime Database**.  
 This project runs on a **Raspberry Pi**, integrating **AI-based object classification** with **ultrasonic bin-level monitoring**.
@@ -37,9 +37,9 @@ AI-Waste-Sorter/
 ├── .gitignore
 │
 ├── images/
-│   ├── Sortyx_intro_video.mp4
-│   ├── SortyxVideo.mp4
-│   ├── Sortyx_logo.png
+│   ├── Intro_video.mp4
+│   ├── Video.mp4
+│   ├── logo.png
 │   ├── left_image.png
 │   ├── right_image.png
 │   ├── green_bin_person.png
@@ -116,11 +116,11 @@ FIREBASE_BASE_URL = "https://your-project-id-default-rtdb.asia-southeast1.fireba
 
 | Component | Description |
 |------------|--------------|
-| Raspberry Pi 4 (or 3B+) | Main controller |
+| Raspberry Pi 5 | Main controller |
 | HC-SR04 Ultrasonic Sensors | Bin level detection |
-| 5V Relay Module | Bin cover or actuator (optional) |
+| servo motor | Bin cover or actuator (optional) |
 | USB / Pi Camera | Real-time waste detection |
-| 12V Power Supply | System power |
+| 5V Power Supply | System power |
 | Internet / Wi-Fi | Firebase & Gemini connectivity |
 
 ---
@@ -160,7 +160,7 @@ Feel free to modify and use it for research or educational purposes.
 ## 👨‍💻 Author
 
 Developed by **Giriprasath T K**  
-📧 Contact: [your-email@example.com]  
+📧 Contact:tkcharan8@gmail.com 
 📍 India
 
 ---
