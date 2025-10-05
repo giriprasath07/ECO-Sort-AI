@@ -45,7 +45,7 @@ except ImportError:
     GPIO = MockGPIO()
 
 from PIL import Image
-import requests # Import requests for API calls
+import requests # Import requests for  calls
 import base64
 from dotenv import load_dotenv
 import google.generativeai as genai
@@ -1815,8 +1815,8 @@ def classify_with_gemini(image_np):
     """
     
     load_dotenv()
-    #api_key = os.getenv("GOOGLE_API_KEY")
-    api_key = "AIzaSyDLM9AFv8YSKTyMQrlQR8dk0B2zaSRhI_k"
+    #_key = os.getenv("GOOGLE__KEY")
+    api_key = "YOUR_GEMINI_API_KEY"
     if not api_key:
         print("Error: GOOGLE_API_KEY environment variable not set.")
         return "Error", "API key not found.", "API key not found."
@@ -1914,3 +1914,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
