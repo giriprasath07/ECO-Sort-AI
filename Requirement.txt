@@ -1,0 +1,16 @@
+# Core dependencies
+PyQt5
+opencv-python
+numpy
+requests
+qrcode
+Pillow
+python-dotenv
+google-generativeai
+ultralytics
+
+# Raspberry Pi GPIO (for real hardware)
+lgpio
+
+# Optional: allows running GPIO code on non-Raspberry Pi systems
+fake-rpi
