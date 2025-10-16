@@ -173,5 +173,7 @@ Developed by **Giriprasath T K**
 
 ---
 
-### 🖼 Preview (Example UI)
-*(Insert screenshot of your PyQt5 interface or system in action)*
+### 🖼 Preview 
+![Prototype Image](demo.jpg)
+---
+
