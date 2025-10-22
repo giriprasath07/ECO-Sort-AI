@@ -140,6 +140,11 @@ FIREBASE_BASE_URL = "https://your-project-id-default-rtdb.asia-southeast1.fireba
 
 ---
 
+## circuit diagram
+
+![Prototype Image](smart%20bin.png)
+
+---
 ## 🌱 Sustainability Metrics
 
 Each item classified as recyclable increases:
